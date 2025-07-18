@@ -46,7 +46,8 @@ npm install
 ```env
 # Chunirec API 설정
 CHUNIREC_ACCESS_TOKEN=발급받은_chunirec_액세스_토큰
-CHUNIREC_USER_NAME="username" #페이지 우측 상단에 usernameさん으로 표시됩니다.
+#username 설정 : 페이지 우측 상단에 usernameさん으로 표시됩니다.
+CHUNIREC_USER_NAME="username"
 
 # Google Sheets API 설정
 GOOGLE_API_KEY=발급받은_구글_API_키
