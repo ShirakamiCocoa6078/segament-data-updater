@@ -1,0 +1,26 @@
+{
+  "name": "segament-data-updater",
+  "version": "1.0.0",
+  "description": "Chunithm 음악 데이터 업데이터 - API 데이터와 엑셀 상수 데이터를 병합합니다",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "update": "node src/index.js"
+  },
+  "keywords": [
+    "chunithm",
+    "music",
+    "data",
+    "updater",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "googleapis": "^126.0.1",
+    "xlsx": "^0.18.5",
+    "fs-extra": "^11.1.1"
+  }
+}
