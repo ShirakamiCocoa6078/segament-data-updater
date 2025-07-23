@@ -4,8 +4,9 @@
   "description": "Chunithm 음악 데이터 업데이터 - API 데이터와 엑셀 상수 데이터를 병합합니다",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "update": "node src/index.js"
+    "start" : "node src/updater.js",
+    "update": "node src/updater.js",
+    "dev" : "electron ."
   },
   "keywords": [
     "chunithm",

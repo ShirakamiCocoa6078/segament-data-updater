@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Segament Data Updater</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Segament Data Updater</h1>
+            <div class="button-group">
+                <button id="loadFile">악곡 목록 불러오기</button>
+                <button id="startUpdate">업데이트 시작</button>
+                <button id="saveFile">JSON 파일 저장</button>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            <div class="data-view">
+                <h2>데이터 현황</h2>
+                <div id="dataTable" class="table-container">
+                    <p>악곡 목록 파일을 불러오세요.</p>
+                </div>
+            </div>
+            <div class="log-view">
+                <h2>처리 로그</h2>
+                <div id="logArea" class="log-container">
+                    </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./renderer.js"></script>
+</body>
+</html>

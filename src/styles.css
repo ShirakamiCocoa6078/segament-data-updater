@@ -1,0 +1,8 @@
+body { font-family: sans-serif; margin: 0; background-color: #282c34; color: #abb2bf; }
+.container { display: flex; flex-direction: column; height: 100vh; }
+.header { padding: 1rem; border-bottom: 1px solid #444; }
+.button-group button { padding: 0.5rem 1rem; margin-right: 0.5rem; }
+.main-content { display: flex; flex: 1; padding: 1rem; gap: 1rem; overflow: hidden; }
+.data-view, .log-view { flex: 1; background-color: #3c4049; padding: 1rem; border-radius: 5px; display: flex; flex-direction: column; }
+.table-container, .log-container { flex: 1; overflow: auto; background-color: #21252b; padding: 0.5rem; margin-top: 0.5rem; }
+h1, h2 { margin-top: 0; }
